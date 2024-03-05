@@ -17,6 +17,8 @@ const Question = () => {
       })
     }
 
+    console.log(quizState);
+
   return (
     <div id="question">
         <p>Pergunta {quizState.currentQuestion + 1} de {quizState.questions.length}</p>
